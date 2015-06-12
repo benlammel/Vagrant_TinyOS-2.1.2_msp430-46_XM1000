@@ -2,12 +2,6 @@
 
 wget -O - http://tinyprod.net/repos/debian/tinyprod.key | sudo apt-key add -
 
-# key
-#gpg --keyserver keyserver.ubuntu.com --recv-keys 34EC655A
-#gpg -a --export 34EC655A | sudo apt-key add -
-
-#echo "deb http://tinyprod.net/repos/debian squeeze main" >> /etc/apt/sources.list
-
 echo "deb http://tinyprod.net/repos/debian squeeze main" >> /etc/apt/sources.list
 echo "deb http://tinyprod.net/repos/debian msp430-46 main" >> /etc/apt/sources.list
   
