@@ -15,7 +15,7 @@ echo "deb http://tinyprod.net/repos/debian msp430-46 main" >> /etc/apt/sources.l
 apt-get update
 
 # install tinyos-tools
-apt-get install -y --force-yes msp430-46 nesc tinyos-tools
+apt-get install -y --force-yes make msp430-46 nesc tinyos-tools
 
 echo "source /vagrant/tinyos-2.1.2/tinyos.sh" >> /home/vagrant/.bashrc
 
